@@ -1,0 +1,589 @@
+:root{
+    --gray: #f2f2f2;
+    --blue: #0071e3;
+}
+*{box-sizing: border-box;}
+.bggray{
+    background-color: var(--gray);
+}
+#logo{
+    max-width: 25px;
+}
+nav{ 
+    background-color: var(--gray);
+    padding: 20px 0 !important;
+}
+.navbar-toggler{
+    border: none;
+    padding: 0 5px;
+}
+.navbar-toggler span{ max-width: 25px; }
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons a{
+    color: #000;
+    text-decoration: none;
+    padding: 0 8px;
+}
+.nav-item{white-space: nowrap;}
+.navbar-nav li{ font: 500 1em  Arial,Helvetica, sans-serif; }
+#headerslider{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    background-color: #fff;
+    scrollbar-width: none;
+    padding: 5px 0;
+}
+#headerslider div{
+    padding: 10px 20px;
+    text-align: center;
+}
+#headerslider p{
+    font: 400 .7em Arial,Helvetica,sans-serif;
+    margin: 0;
+}
+.new{
+    font-size: .6em;
+    color: #bf4800;
+}
+.newphone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#headerbtm p{
+    font: 500 1.3em Arial,Helvetica,sans-serif;
+    margin: 0;
+    color: #000;
+    padding: 0 30px;
+    padding-top: 20px;
+}
+.links{
+    display: inline-block;
+    font: 300 1em Arial, Helvetica, sans-serif ;
+    padding: 10px 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: var(--blue);
+    position: relative;
+}
+section{ padding: 10px 20px ;}
+#titanium{ 
+    background-color: #000; 
+    color: #fff;
+}
+.titaniumtext{
+    height: 40px;
+    padding: 15px 0;
+    background: url('../img/titanium.jpeg') center/contain no-repeat;
+}
+.titantop h6{
+    color: #8b887eff;
+    font: 300 1.1em Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.titantop .new{ font-size: .8em; }
+.price {
+    font: 300 .9em Arial, Helvetica, sans-serif;
+    margin: 20px 15px;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    font: 300 .8em Arial, Helvetica, sans-serif;
+    padding: 10px 25px;
+    transition: .3s;
+    margin: 10px 0;
+    border-radius: 30px;
+    background: var(--blue); 
+    transition: .5s;   
+}
+.btnblack{transition: .5s;}
+.btn:hover{box-shadow: 0 0 3px #fff;}
+.btnblack:hover{box-shadow: 0 0 3px #000;}
+.titanbtm{
+    background: url('../img/titanium-mobile.jpeg') center/contain no-repeat;
+    height: 50vh;
+} 
+.newptop h2{
+    font: 300 2.8em Arial, Helvetica, sans-serif;
+}
+
+.newpbtm{
+    background: url('../img/newphoria.jpeg') center/contain no-repeat;
+    padding: 10px;
+    height: 20vh;
+}
+#love{
+    background-color: #FBFBFB;
+}
+#love h1{
+    color: #1e3791;
+}
+#love p{
+    font-size: 1.2em;
+}
+.lovebtm{
+    background: url('../img/lovebg.jpeg') center/ contain no-repeat;
+    height: 50vh;
+}
+h1{
+    font:700 2em Arial, Helvetica, sans-serif;
+    margin: 20px 10px;
+}
+h2{
+    font: 500 1.8em Arial,Helvetica,sans-serif;
+    padding-top: 20px;
+}
+h5{
+    font: 600 1.3em Arial,Helvetica,sans-serif;
+}
+.cards h5{
+    padding: 30px;
+    font-size: 1.4em;
+}
+.guidebtm{
+    width: 100%;
+    height: 50vh;
+}
+
+.watch{
+    color: #0071E3;
+    background-color: #ffffffcc;
+    margin: 10px 0;
+    padding: 8px 20px;
+    border-radius: 15px;
+    font-size: .8em;
+    transition: .4s;
+}
+.watch:hover{scale: 1.2;}
+.guide{
+    display: flex;
+    flex-direction: column;
+}
+.guidetop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.guidetop h2{
+    padding: 10px 0;
+    line-height: 1.6;
+    text-align: center;
+}
+.guidetop h4{
+    font:600 1.6em Arial,Helvetica,sans-serif;
+}
+.guidebtm{
+    background: url('../img/guidebg.jpeg') center/ cover;
+    height: 50vh;
+}
+.phones{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    justify-content: center;
+}
+.phonecard{width: 100%;}
+#which h1{text-align: center;}
+.phonesimg{
+    height: 300px;
+    padding: 0 10px;
+}
+.phoneimg{
+    height: 85%;
+    width: 100%;
+    object-fit: contain;
+    padding: 20px 0 10px 0;
+}
+
+.phones hr{
+    width: 60%;
+    margin: auto;
+}
+.from{
+    margin: 20px 0 0 0;
+    font-size: .8em;
+}
+.features img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+.features div{
+    padding: 20px 0;
+}
+.features p {
+    width: 145px;
+    margin: auto;
+    font: .7em / 2 Arial,Helvetica,sans-serif;
+}
+
+#waystosave, #accessories, #whatmakesiphone, #getmore,#app{
+    background-color: var(--gray);
+}
+#app{padding-bottom: 40px;}
+.card1 .card-pic{
+    background: url('../img/savei_phone.jpg') center /contain no-repeat;
+    width: 100%;
+    height: 30vh;
+}
+.card2 .card-pic{
+    background: url('../img/appleemoji.jpeg') center/contain no-repeat;
+    height: 20vh;
+}
+.card3 .card-pic{
+    background: url('../img/aplepphone.jpeg') center /contain no-repeat;
+    height: 30vh;
+}
+.kart p{ color :#6e6e73}
+.kart{
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.why{
+    background-color: #fff;
+    padding: 30px 15px;
+    margin: 20px 10px;
+}
+.whybtm{
+    background: url('../img/applebg6.jpeg') left/ cover no-repeat;
+    height: 25vh;
+}
+.why h5{
+    font-size: 2em;
+    padding: 20px 0;
+}
+.accessories h2{font-weight: bold;}
+.magbtm{
+    background: url('../img/applephones.jpeg') center/ contain no-repeat;
+    height: 30vh;
+    margin: 30px 0;
+}
+
+.magtop p{
+    max-width: 300px;
+    margin: 15px auto;
+    font: 1.1em /1.5 Arial;
+}
+.airbtm{
+    background: url('../img/airtag__b81h4czx41yq_medium.jpg') center/ contain no-repeat;
+    height: 30vh;
+    margin: 30px 0;
+}
+.airtop h2,.magtop h2,.magictop h2{padding: 10px 0 0;}
+.airtop p,.magictop p{
+    color: #000;
+    margin: 0;
+}
+
+.magicbtm{
+    background: url('../img/applebg9.jpeg') center/contain no-repeat;
+    height: 20vh;
+}
+.serv{
+    padding: 30px 10px;
+}
+.iosbtm{
+    background: url('../img/ios17.jpg') center / cover no-repeat;
+    margin: 10px 0;
+    height: 40vh;
+}
+.switchbtm{
+    background: url('../img/applebg.jpeg') center/cover no-repeat;
+    height: 40vh;
+    margin: 10px 0;
+}
+.privacybtm{
+    background: url('../img/privacy.jpg') center/cover no-repeat;
+    height: 40vh;
+    margin: 10px 0;
+}
+.one{
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+    background: url('../img/apple_one.jpg') center/contain no-repeat;
+}
+.bgblack i,.bgblack h2, .bgblack p{color: #fff;}
+
+.tvbtm{
+    background: url('../img/tv+_bg.png') center/cover no-repeat;
+    height: 40vh;
+    margin: 10px 0;
+}
+.musicbtm{
+    background: url('../img/music_bg.jpg') center 45px /cover no-repeat;
+    height: 40vh;
+    margin: 10px 0;
+}
+.bgblack{background-color: #000;}
+.ftnbtm{
+    background: url('../img/fitness_bg.jpg') center/cover no-repeat;
+    height: 40vh;
+}
+.arcbtm{
+    background: url('../img/arcade_bg.png') center/cover no-repeat;
+    height: 40vh;
+}
+.newbtm{
+    background: url('../img/news_bg.jpeg') center/cover no-repeat;
+    height: 40vh;
+}
+.gftbtm{
+    background: url('../img/gift_bg.jpg') center/cover no-repeat;
+    height: 40vh;
+}
+.rschbtm{
+    background: url('../img/research_app.jpg') center/contain no-repeat;
+    height: 30vh;
+    margin: 30px 0;
+}
+
+.ftop a{
+    display: flex;
+    align-items: center;
+}
+.ftop a i{margin: 10px;}
+a{text-decoration: none; color: inherit;}
+.moreway{
+    color: var(--blue);
+    text-decoration: underline;
+}
+#apple{font-size: 1.5rem;padding-left: 0;}
+footer{
+    padding: 0 6%;
+}
+#title{
+    padding: 15px 0;
+    font: 300 1.2em Arial;
+    white-space: nowrap;
+}
+.menuflex{
+    padding: 0 20px 20px 0;
+}
+.menuflex a{
+    font: 300 .8em Arial;
+    width: 20%;
+}
+.accordion{padding: 0 0 20px 0;}
+.desktopmenu{display:none;}
+#desktopnav{display: none;}
+@media only screen and (min-width:370px){
+    .phonecard{width: 50%;}
+}
+@media only screen and (min-width:768px){
+    .containern{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .navbar-nav li{ 
+        font: 600 .75em  Arial,Helvetica, sans-serif; 
+    }
+    .navbar-expand-md  .nav-link{padding-left: 0 !important;}
+    .titanbtm{
+        background: url('../img/titanium-pc.png') center/contain no-repeat;
+        width: 60%;
+        margin: auto;
+    } 
+    .newpbtm{
+        background-size: cover;
+        height: 55vh;
+    }
+    .lovebtm{
+        background: url('../img/lovebg.jpeg') center/ contain no-repeat;
+        height: 100vh;
+    }
+    h1{font-size: 3em;}
+    .guide{
+        background: url('../img/guidebg.jpeg') center/ cover;
+        border-radius: 30px;
+        height: 100vh;
+        display: flex;
+        margin: 20px;
+        color: #fff;
+    }
+    .guidetop{
+        align-items: start;
+        justify-content: center;
+        height: 100vh;
+        width: 400px;
+        padding: 0 0 0 8% ;
+    }
+    .guidetop h2{text-align: left;}
+    .guidebtm{display: none;}
+
+    h2{font-size: 2.8em;}
+
+    .watch{color: #000;}
+
+    .links i{display: none;}
+
+    .phonecard{
+        width: 25%;
+        padding: 0 10px;
+    }
+    .phones hr{
+        width: 100%;
+    }
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card1{width: 100%;}
+    .card2, .card3{width: 45%;margin: auto; height: 520px;}
+    .why{
+        background: url('../img/applebg6.jpeg') center/ cover no-repeat;
+        height: 80vh;
+    }
+    .whybtm{display: none;}
+    .why h5{
+        font-size: 3em;
+    }
+    .whytitle{
+        max-width: 500px; 
+        margin:auto;
+    }
+    .cards h5{padding: 20px 10px;}
+
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .serv{width: 50%;}
+    .iosbtm,.magicbtm{
+        height: 50vh;
+    }
+    .karts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ios{width: 100%;}
+    .switch, .privacy{
+        width: 47.5%;
+        height: 650px;
+        margin: auto;
+    }
+    .magsafe, .airtag,.get,.research{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .airtag{
+        flex-direction: row-reverse;
+    }
+    .airbtm {
+        background: url(../img/appleanahtarlik.jpeg) center / contain no-repeat;
+    }
+    .magbtm,.airbtm,.magtop,.airtop{
+        width: 50%;
+        height: 60vh;
+    }
+    .magtop,.airtop,.gettop,.rschtop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .getbtm{
+        background: url('../img/applebg2.jpeg') center/contain no-repeat;
+    }
+    
+    .gettop, .getbtm,.rschtop,.rschbtm{
+        width: 50%;
+        height: 50vh;
+    }
+    .get{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .research{width: 100%;}
+    .one{height: 50px;}
+    .tv,.music,.fitness,.arcade,.gift,.news{
+        width: 46.5%;
+        margin: 15px auto;
+        height: 585px;
+    }
+    .accordion{display: none;}
+    .accordion-body a{display: block !important;}
+    .desktopmenu{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-around;
+        padding: 40px 0;
+    }
+    #mobilenav{display: none;}
+    #desktopnav{display: block;}
+    .navbar-nav li{ font: 600 .8em  Arial,Helvetica, sans-serif; }
+    .navbar-nav{margin: auto; padding: 0 15px;}
+    .links::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px; 
+        background: linear-gradient(to right, red, orange, yellow, green, blue);
+        transition: width 0.7s ease-out;
+    }
+    .links:hover::after {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width:992px) {
+    .containern{
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    #headerslider{
+        justify-content: center;
+        margin: 0;
+    }
+    #love{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10%;
+    }
+    .lovebtm, .lovetop{
+        width: 50%;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-left: var(--bs-navbar-nav-link-padding-x) !important;
+    }
+    .card1, .card2, .card3{
+        width: 31.5%;
+        height: 545px;
+        margin: auto;
+    }
+    .guide{
+        background: url('../img/guidebg.jpeg') center/ cover;
+        border-radius: 30px;
+        height: 100vh;
+        display: flex;
+        margin: 20px;
+        color: #fff;
+    }
+    .guidetop{
+        align-items: start;
+        justify-content: center;
+        width: 520px;
+        height: 100vh;
+        padding: 0 0 0 12%;
+    }
+    .serv{width: 33.3%;}
+    
+}
