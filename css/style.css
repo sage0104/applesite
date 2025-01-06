@@ -510,7 +510,7 @@ footer{
     .tv,.music,.fitness,.arcade,.gift,.news{
         width: 46.5%;
         margin: 15px auto;
-        height: 585px;
+        height: 600px;
     }
     .accordion{display: none;}
     .accordion-body a{display: block !important;}
